@@ -1,0 +1,77 @@
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	}
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 200%;
+	font-weight: 700;
+	color: #2c2c2c;
+	text-align: center;
+	text-decoration: underline;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	color: #2c2c2c;
+	font-size: 140%;
+	line-height: 180%;
+	text-align: justify;
+	font-weight: 300;
+}
+
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.intro {
+	height: 100%
+	width: 100%;
+	margin: auto;
+	background: url(https://static.pexels.com/photos/248159/pexels-photo-248159.jpeg) no-repeat 50% 50%;
+	background-size: cover;
+	top: 0;
+}
+#inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content {
+	max-width: 600px;
+	margin: auto;
+}
+h1 {
+	font-family: 'Playfair Display'; serif;
+	font-size: 300p%
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	padding: 2%
+	text-shadow: 0px 0px 25px #000;
+}
+
+.content p {
+	max-width: 600px;
+	margin: auto;
+	font-size: 170%;
+	line-height: 1.6;
+	padding: 10px;
+}
+/** start nav **/
+nav {
+float: left;
+padding: 5% 5% 0 0;
+height: 50px;
+}
+
+ul{
+	list-style: none;
+	float: left;
+}
