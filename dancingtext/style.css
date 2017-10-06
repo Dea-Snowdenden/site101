@@ -1,0 +1,154 @@
+
+.text {
+  font-size: 8vw;
+  animation: dance 4s infinite steps(20);
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  
+}
+/*animation*/
+@keyframes dance {
+  10% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: none;
+    border: 3px solid black;
+  }
+  15% {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 3px dashed black;
+  }
+  20%{
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    border: 3px solid black;
+  }
+  25%{
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+    border: 3px solid black;
+  }
+  30% {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    border: 3px dotted black;
+    font-family: 'Oswald', sans-serif;
+  }
+  35% {
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    border: 3px dotted black;
+    font-family: 'Oswald', sans-serif;
+  }
+  40%{
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: lowercase;
+    border: 3px double black;
+    font-family: 'Roboto', sans-serif;
+  }
+  45%{
+    font-weight: 180;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    border: 3px double black;
+  }
+  50% {
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+  }
+  55% {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+  }
+  60% {
+     font-weight: 700;
+    font-style: normal;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: 'Roboto Mono', monospace;
+    border: 3px dotted black;
+  }
+  65% {
+     font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto Mono', monospace;
+    border: 3px dotted black;
+  }
+  70%{
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: none;
+    border: 3px solid black;
+    font-family: 'Oswald', sans-serif;
+  }
+  75%{
+    font-weight: 50;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: none;
+    border: 3px solid black;
+  }
+  80%{
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+    border: 3px dashed black;
+  }
+  85%{
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+    border: 3px dashed black;
+  }
+  90%{
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    border: 3px double black;
+  }
+  95%{
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    border: 3px double black;
+  }
+  100%{
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: lowercase;
+    border: 3px none black;
+  }
+}
+ty
