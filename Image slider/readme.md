@@ -24,11 +24,19 @@
     font-size: 5rem;
     color: white;
 }
-
+```
 ![alt-text](images/css2.png)
 
 ### images3
 * with arrow
+```
+#arrow-left {
+    border-color: transparent white transparent transparent;
+    border-width: 30px 40px 30px 0;
+    left: 0;
+    margin-left: 30px;
+}
+```
 ![alt-text](images/css3.png)
 
 ## JS FUNCTION FOR SLIDING
