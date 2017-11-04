@@ -3,7 +3,7 @@
 ## FEATURES
 * click arrow to slide images from left or right
 
-## SAMPLE
+## SAMPLE, Link: DeaLorenzo-parallel.surge.sh
 ![alt-text](images/sample.gif)
 
 ### images
