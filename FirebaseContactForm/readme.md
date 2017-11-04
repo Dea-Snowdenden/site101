@@ -1,5 +1,9 @@
 # contact form with firebase
 
+### sample: 
+
+DeaLorenzo-FirebaseContactForm.surge.sh
+
 This is a working contact form in connection to the portfolio website.
 
 1. initially the elements were given ids, eg firstname, lastname, phone, email and message then the main.js was created
