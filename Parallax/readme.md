@@ -1,6 +1,6 @@
 # Parallax Site
 
-### Sample
+### Sample. Click link: http://dea-parallax.surge.sh
 
 ![alt-text](images/sample.gif)
 
