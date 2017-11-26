@@ -13,11 +13,68 @@
 
 .card-wrap{
     margin: 10px;
+    -webkit-perspective: 800;
+    perspective: 800;
+/* higher number, smaller dimension */
 }
 
 .card{
     width: 300px;
     height: 350px;
     background: skyblue;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
 
+}
+
+.front, .back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; 
+
+}
+
+.front{
+    width: 100%;
+    padding: 120px;
+}
+.back {
+    transform: rotateY(180deg);
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-family: 'Atomic Age', cursive;
+    font-size: 20px;
+}
+
+.card-wrap:hover .card{
+    transform: rotateY(180deg);
+}
+
+.card1{
+    background-image: url(https://images.pexels.com/photos/681335/pexels-photo-681335.jpeg?h=350&auto=compress&cs=tinysrgb);
+    background-size: cover;
+}
+
+.card2{
+    background-image: url(https://images.pexels.com/photos/237018/pexels-photo-237018.jpeg?h=350&auto=compress&cs=tinysrgb);
+    background-size: cover;
+}
+.card3{
+    background-image: url(https://images.pexels.com/photos/158028/bellingrath-gardens-alabama-landscape-scenic-158028.jpeg?h=350&auto=compress&cs=tinysrgb);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
 }
