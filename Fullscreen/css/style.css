@@ -7,12 +7,12 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    color: rgb(248, 107, 196);
+    color: #926239;
     line-height: 1.6;
 }  
 
 #showcase{
-    background: url(https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background: url(http://hdwallpapersrocks.com/wp-content/uploads/2013/09/Luxurious-coffee-shop-interior-hall.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -28,16 +28,20 @@ body{
 #showcase h1{
     font-size: 50px;
     line-height: 1.2;
+    color: rgb(68, 45, 3);
+    font-family: 'Merriweather', serif;
+    
 }
 
 #showcase p{
     font-size: 20px;
+    color: rgb(68, 45, 3);
 }
 
 #showcase .button{
     font-size: 18px;
     text-decoration: none;
-    color: #926239;
+    color: rgb(68, 45, 3);
     border: #926239 1px solid;
     padding: 10px 20px;
     border-radius: 10px;
@@ -45,13 +49,13 @@ body{
 }
 
 #showcase .button:hover{
-    background: #926239;
+    background: rgb(68, 45, 3);
     color: #fff;
 }
 
 #section-a {
     padding: 20px;
-    background: #926239;
+    background: rgb(68, 45, 3);
     color: #fff;
     text-align: center; 
 }
@@ -71,10 +75,15 @@ body{
 }
 
 #section-c .box1, #section-c .box3{
-    background: #926239;
+    background: rgb(68, 45, 3);
     color: #fff;
 }
 
 #section-c .box2{
     background: #f9f9f9;
+}
+
+.footer p{
+    text-align: center;
+    background: #f4f4f4;   
 }
