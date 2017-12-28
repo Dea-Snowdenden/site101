@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(17, 104, 105);
+}
+.text-animation{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.text-animation li{
+    display: inline-block;
+    margin-right: 5px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 5em;
+    color: #70e1e2;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+.text-animation li:last-child{
+    margin-right: 0;
+}
+.text-animation.hidden{
+    opacity: 0;
+    
+}
