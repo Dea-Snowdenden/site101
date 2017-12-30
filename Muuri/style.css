@@ -8,7 +8,7 @@ body{
 .item{
     display: block;
     position: absolute;
-    height: 200x;
+    height: 200px;
     width: 200px;
     line-height: 200px;
     margin: 5px;
@@ -39,10 +39,15 @@ body{
     text-align: center;
 }
 
-.item.muuri-item-dragging .item{
+.item.muuri-item-dragging .item-content{
     background: #8993a2;
 }
 
 .item.muuri-item-releasing .item-content{
     background: #152c43;
+}
+
+.img{
+    max-height: 50px;
+    max-width: 50px;
 }
