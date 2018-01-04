@@ -21,9 +21,11 @@
             <li></li>
         </ul>
     </div>
+
 `
 
 * css 
+
 `
 li:nth-child(1)
 {
@@ -36,6 +38,7 @@ li:nth-child(1)
 `
 
 * key frames for animation 
+
 `
 @keyframes animate 
 {
