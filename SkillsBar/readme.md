@@ -1,4 +1,5 @@
 # Animated CSS showing Skills Bar
+* no js function, just pure html-css
 
 ### link: http://skillsbar-dealorenzo.surge.sh/
 
