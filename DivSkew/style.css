@@ -38,12 +38,13 @@ body{
     transform: scaleX(1.5) scaleY(.8);
 }
 .main .content{
+    background: url('images/image1.jpeg');
+    background-size: cover;
     position: absolute;
     top: 20px;
     left: 20px;
     bottom: 20px;
     right: 20px;
-    background: #fff;
     padding: 50px;
     box-sizing: border-box;
     text-align: center;
@@ -52,12 +53,13 @@ body{
 
 .main .content h1{
     margin: 0;
-    padding: 0;
-    color: #262626;
+    padding: 10px;
+    color: #000;
     font-weight: 700;
 }
 
 .main .content p{
+    padding-top: 20px;
     font-weight: 400;
 }
 
