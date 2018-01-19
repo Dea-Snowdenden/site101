@@ -4,4 +4,4 @@
 
 * sample image
 
-!alt-text[images/sample.png]
+![alt-text](images/sample.png)
